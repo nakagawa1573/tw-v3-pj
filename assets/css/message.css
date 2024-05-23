@@ -1,0 +1,38 @@
+.message__box {
+    color: #fff;
+}
+
+.message {
+    width: 100%;
+    max-width: 1000px;
+    margin-left: 50px;
+}
+
+.message__header {
+    text-align: left;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.message__data {
+    padding: 10px 20px;
+}
+
+.message__box {
+    width: 100%;
+}
+
+.message__item--box {
+    display: flex;
+}
+
+.message__item--img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.message__data,
+.message__header {
+    border: 1px solid #fff;
+}
